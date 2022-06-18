@@ -34,7 +34,7 @@ prompt APPLICATION 100 - Opportunities
 -- Application Export:
 --   Application:     100
 --   Name:            Opportunities
---   Date and Time:   23:36 Friday June 17, 2022
+--   Date and Time:   00:13 Saturday June 18, 2022
 --   Exported By:     MYAPP
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -149,7 +149,7 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_04=>'APP_DATE_TIME_FMT'
 ,p_substitution_value_04=>'DD-MON-YYYY HH:MI PM'
 ,p_last_updated_by=>'WS_ADMIN'
-,p_last_upd_yyyymmddhh24miss=>'20220617232615'
+,p_last_upd_yyyymmddhh24miss=>'20220618001204'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 ,p_print_server_type=>'INSTANCE'
@@ -23160,7 +23160,8 @@ wwv_flow_api.create_page(
 'Use the filters on the left to show different results in the region on the right. The right region can be displayed in one of three ways (Cards View, Report View, and Customizable Grid) by using the display-mode buttons (located to the left of the <s'
 ||'trong>Create Opportunity</strong> button). Filters are not displayed in the Customizable Grid view.',
 ''))
-,p_last_upd_yyyymmddhh24miss=>'20210812003732'
+,p_last_updated_by=>'WS_ADMIN'
+,p_last_upd_yyyymmddhh24miss=>'20220618001204'
 );
 wwv_flow_api.create_report_region(
  p_id=>wwv_flow_api.id(6582189241471347007)
@@ -24356,7 +24357,7 @@ wwv_flow_api.create_page_plug(
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(10503248140615035953)
-,p_plug_name=>'Opportunities'
+,p_plug_name=>'Ana !!! Opportunities'
 ,p_icon_css_classes=>'fa-eye'
 ,p_region_template_options=>'#DEFAULT#:t-HeroRegion--hideIcon'
 ,p_plug_template=>wwv_flow_api.id(7351838716713178777)
